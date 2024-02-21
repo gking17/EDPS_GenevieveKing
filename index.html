@@ -11,6 +11,7 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <title>Home | Genevieve King</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
@@ -41,46 +42,45 @@
   </nav>
 
   <!-- Header (Photo and Tag Line) -->
-  <div class="row">
-    <div class="col 4">
-      <div class="row">
-        <h1>Hello, I'm Genevieve.</h1>
+  <div class="container px-lg-5">
+    <div class="row align-items-center">
+      <div class="col 3">
+        <div class="row" style="display: grid; place-items: center;"><img src="GKPhoto.jpg" width="300"
+            class="rounded-lg">
+        </div>
+        <br>
       </div>
-
-    </div>
-  </div>
-
-  <table id="Home" class="table table-borderless">
-    <tbody>
-      <tr>
-        <th scope="row"><img src="GKPhoto.jpg" width="300"></th>
-        <td>
-          <h1>Hello, I'm Genevieve.</h1>
+      <div class="col 9">
+        <div class="row">
+          <h1>Hello, I'm Genevieve</h1>
           <h4>I design engaging, meaningful, and effective learning experiences.</h4>
           <a button type="button" class="btn btn-outline-primary" href="./AboutMe.html">Get to know me</a>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <br>
-
-  <!-- Featured Project -->
-  <div id="FeaturedProject">
-    <h2>Featured Project</h2>
-    <h4>Welcome to the Check Inn</h4>
-    <p>What is it like checking guests into a hotel? Try this scenario-based eLearning experience to find out.</p>
-    <a button type="button" class="btn btn-outline-primary" href="./Portfolio.html">Experience the project</a>
-  </div>
-  <br>
-
-  <!-- Let's Connect -->
-  <div id="LetsConnect">
-    <h2>Let's Connect</h2>
-    <p>I am a dynamic and innovative educator with over ten years of experience working in the Learning and Development
-      field.
-      I have always been passionate about creative and authentic learning;
-      I thrive on creating interactive learner experiences that solve real world problems.</p>
-    <a button type="button" class="btn btn-outline-primary" href="./ContactMe.html">Connect with me</a>
+        </div>
+      </div>
+      <!-- Featured Project -->
+      <div class="row">
+        <div id="FeaturedProject">
+          <h2>Featured Project</h2>
+          <h4>Welcome to the Check Inn</h4>
+          <p>What is it like checking guests into a hotel? Try this scenario-based eLearning experience to find out.</p>
+          <a button type="button" class="btn btn-outline-primary" href="./Portfolio.html">Experience the project</a>
+          <br>
+          <br>
+        </div>
+      </div>
+      <!-- Let's Connect -->
+      <div class="row">
+        <div id="LetsConnect">
+          <h2>Let's Connect</h2>
+          <p>I am a dynamic and innovative educator with over ten years of experience working in the Learning and
+            Development
+            field.
+            I have always been passionate about creative and authentic learning;
+            I thrive on creating interactive learner experiences that solve real world problems.</p>
+          <a button type="button" class="btn btn-outline-primary" href="./ContactMe.html">Connect with me</a>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- Optional JavaScript -->

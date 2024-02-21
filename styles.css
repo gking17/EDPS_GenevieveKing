@@ -1,3 +1,15 @@
+body {
+    background-color: #f8fdfb;
+}
+
 h1 {
-    color: rgb(138, 85, 138)
+    color: #007bff;
+}
+
+h2 {
+    color: #007bff;
+}
+
+h4 {
+    color: #00bf63;
 }
