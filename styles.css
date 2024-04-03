@@ -38,18 +38,6 @@ h4 {
     object-fit: cover;
 }
 
-.ContactMe {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    padding: 24px;
-    width: auto;
-    height: auto;
-    min-width: 100px;
-    object-fit: cover;
-}
-
 .EmailMe {
     display: flex;
     flex-direction: column;
