@@ -24,6 +24,7 @@ h4 {
 .column1 {
     flex: 1;
     display: flex;
+    height: 300px;
     justify-content: center;
     align-items: center;
     max-width: 300px;
