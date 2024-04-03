@@ -61,7 +61,7 @@ h4 {
 }
 
 
-.AboutMe {
+.Box {
     display: flex;
     flex-direction: column;
     padding: 24px;
