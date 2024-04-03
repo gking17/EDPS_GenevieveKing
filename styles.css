@@ -31,3 +31,12 @@ h4 {
     min-width: 100px;
     object-fit: cover;
 }
+
+.BusinessExperience {
+    background-color: rgb(44, 179, 89);
+    padding: 24px;
+    width: auto;
+    height: auto;
+    min-width: 100px;
+    object-fit: cover;
+}
