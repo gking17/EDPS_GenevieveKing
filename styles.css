@@ -25,6 +25,10 @@ h4 {
     object-fit: cover;
 }
 
+.btnbtn-outline-primary {
+    max-width: 100px;
+}
+
 .BusinessBio {
     display: flex;
     background-color: pink;
