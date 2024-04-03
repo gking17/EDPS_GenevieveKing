@@ -14,8 +14,9 @@ h4 {
     color: #00bf63;
 }
 
-.PhotoTagLine {
+.TagLine {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     padding: 24px;
