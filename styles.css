@@ -45,53 +45,6 @@ h4 {
     align-items: flex-start
 }
 
-.Project {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    padding: 24px;
-    width: auto;
-    height: auto;
-    min-width: 100px;
-    object-fit: cover;
-}
-
-.Connect {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    padding: 24px;
-    width: auto;
-    height: auto;
-    min-width: 100px;
-    object-fit: cover;
-}
-
-.ContactMe {
-    display: flex;
-    flex-direction: column;
-    padding: 24px;
-    width: auto;
-    height: auto;
-    min-width: 100px;
-    object-fit: cover;
-}
-
-.EmailMe {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    padding: 24px;
-    width: auto;
-    height: auto;
-    min-width: 100px;
-    object-fit: cover;
-}
-
-
 .Box {
     display: flex;
     flex-direction: column;
