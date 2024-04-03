@@ -22,3 +22,12 @@ h4 {
     min-width: 100px;
     object-fit: cover;
 }
+
+.PersonalBio {
+    background-color: rgb(44, 147, 179);
+    padding: 24px;
+    width: auto;
+    height: auto;
+    min-width: 100px;
+    object-fit: cover;
+}
