@@ -15,6 +15,7 @@ h4 {
 }
 
 .box {
+    background-color: plum;
     padding: 24px;
     width: 40%;
     height: auto;
