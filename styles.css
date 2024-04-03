@@ -17,8 +17,9 @@ h4 {
 .BusinessBio {
     background-color: pink;
     padding: 24px;
-    width: 40%;
+    width: auto;
     height: auto;
     max-width: 650px;
+    min-width: 100px;
     object-fit: cover;
 }
