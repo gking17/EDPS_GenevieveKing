@@ -17,7 +17,6 @@ h4 {
 .AboutMe {
     display: flex;
     flex-direction: column;
-    background-color: orange;
     padding: 24px;
     width: auto;
     height: auto;
@@ -31,7 +30,6 @@ h4 {
 
 .BusinessBio {
     display: flex;
-    background-color: pink;
     padding: 24px;
     width: auto;
     height: auto;
@@ -41,7 +39,6 @@ h4 {
 
 .PersonalBio {
     display: flex;
-    background-color: rgb(44, 147, 179);
     padding: 24px;
     width: auto;
     height: auto;
@@ -51,7 +48,6 @@ h4 {
 
 .BusinessExperience {
     display: flex;
-    background-color: rgb(44, 179, 89);
     padding: 24px;
     width: auto;
     height: auto;
@@ -60,8 +56,6 @@ h4 {
 }
 
 .Resume {
-    justify-content: center;
-    align-items: center;
     max-width: 100%;
     max-height: 100%;
     flex-shrink: 1
