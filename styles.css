@@ -16,8 +16,6 @@ h4 {
 
 .BusinessBio {
     display: flex;
-    justify-content: center;
-    align-items: end;
     background-color: pink;
     padding: 24px;
     width: auto;
