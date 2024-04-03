@@ -76,33 +76,6 @@ h4 {
     max-width: 300px;
 }
 
-.BusinessBio {
-    display: flex;
-    padding: 24px;
-    width: auto;
-    height: auto;
-    min-width: 100px;
-    object-fit: cover;
-}
-
-.PersonalBio {
-    display: flex;
-    padding: 24px;
-    width: auto;
-    height: auto;
-    min-width: 100px;
-    object-fit: cover;
-}
-
-.BusinessExperience {
-    display: flex;
-    padding: 24px;
-    width: auto;
-    height: auto;
-    min-width: 100px;
-    object-fit: cover;
-}
-
 .Resume {
     max-width: 100%;
     max-height: 100%;
