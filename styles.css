@@ -15,8 +15,15 @@ h4 {
 }
 
 .box {
-    background-color: plum;
     padding: 24px;
+    width: 40%;
+    height: auto;
+    max-width: 650px;
+    object-fit: cover;
+}
+
+.box1 {
+    padding: 50px;
     width: 40%;
     height: auto;
     max-width: 650px;
