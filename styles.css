@@ -14,15 +14,8 @@ h4 {
     color: #00bf63;
 }
 
-.box {
-    padding: 24px;
-    width: 40%;
-    height: auto;
-    max-width: 650px;
-    object-fit: cover;
-}
-
-.box1 {
+.BusinessBio {
+    background-color: pink;
     padding: 24px;
     width: 40%;
     height: auto;
