@@ -31,9 +31,8 @@ h4 {
 
 .column1 img {
     border-radius: 10%;
-    max-width: 100px;
-    min-width: 100px;
-    width: 100%;
+    max-width: 100%;
+    max-width: 100%;
     flex-shrink: 1;
     height: auto;
     border: 2px solid #00bf63
