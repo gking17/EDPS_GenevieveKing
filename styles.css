@@ -16,6 +16,8 @@ h4 {
 
 .PhotoTagLine {
     display: flex;
+    justify-content: center;
+    align-content: center;
     padding: 24px;
     width: auto;
     height: auto;
