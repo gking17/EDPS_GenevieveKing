@@ -14,7 +14,7 @@ h4 {
     color: #00bf63;
 }
 
-< !-- About Me Page -->.AboutMe {
+.AboutMe {
     display: flex;
     background-color: orange;
     padding: 24px;
