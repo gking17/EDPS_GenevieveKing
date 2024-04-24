@@ -1,24 +1,84 @@
 body {
-    background-color: #f8fdfb;
+    background-color: #DEC0C0;
+    font-family: "Merriweather"
 }
 
 h1 {
-    color: #007bff;
+    color: black;
+    font-family: "Lora";
 }
 
 h2 {
-    color: #007bff;
+    color: black;
 }
 
 h4 {
-    color: #00bf63;
+    color: black;
+}
+
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lora-header {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.button {
+    background-color: #9EA1D4;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    margin: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    min-width: 100px;
+    max-width: 300px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background-color: #b3b5d8;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.banner img {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 450px) {
+    .banner {
+        height: 150px;
+    }
 }
 
 .Header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 100px
+    padding: 50px;
+    background-color: #DEC0C0;
+    flex-direction: row;
 }
 
 .column1 {
@@ -33,20 +93,32 @@ h4 {
 }
 
 .column1 img {
-    border-radius: 10%;
     max-width: 100%;
-    max-width: 100%;
+    max-height: 350px;
     flex-shrink: 1;
     height: auto;
-    border: 2px solid #00bf63
+    border: 8px solid #9EA1D4
 }
 
 .column2 {
     display: flex;
-    flex: 1;
+    flex: 2;
     padding: 50px;
     flex-direction: column;
-    align-items: flex-start
+    align-items: flex-start;
+    font-family: "Merriweather";
+    background-color: #DEC0C0;
+}
+
+@media only screen and (max-width: 768px) {
+    .Header {
+        flex-direction: column;
+    }
+
+    .column1,
+    .column2 {
+        flex: auto;
+    }
 }
 
 .Box {
@@ -57,15 +129,69 @@ h4 {
     height: auto;
     min-width: 100px;
     object-fit: cover;
-}
-
-.btn-outline-primary {
-    min-width: 100px;
-    max-width: 300px;
+    font-family: "Merriweather";
+    background-color: #DEC0C0;
 }
 
 .Resume {
     max-width: 100%;
     max-height: 100%;
     flex-shrink: 1
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.footer-basic {
+    padding: 40px 0;
+    background-color: #ffffff;
+    color: #4b4c4d;
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+    opacity: 0.9;
 }
