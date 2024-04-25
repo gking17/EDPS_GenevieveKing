@@ -120,6 +120,7 @@ h4 {
     box-sizing: border-box;
 }
 
+
 @media only screen and (max-width: 450px) {
     .banner {
         height: 150px;
